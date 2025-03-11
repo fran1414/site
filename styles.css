@@ -1,0 +1,315 @@
+body{
+
+  background-color: #FEDFFF;
+  color:#6B1C6B
+  
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  
+}
+
+
+
+html{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #5D1191;
+  padding: 1.1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 100;
+  border: solid 1px ;
+  color:#E110B0;
+}
+.logo{
+ 
+ font-size: 1.6em;
+ color: #E110B0;
+ font-weight: 600;
+ cursor: default;
+}
+.cabecalho a{
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  transition: 0,4s;
+  border: 1px solid black;
+  color: #E110B0;
+}
+.cabecalho a:hover{
+  color: #690CCF;
+  
+}
+section{
+  min-height: 100vh;
+  padding: 6rem 6rem 2rem;
+  border: solid 1px black;
+  width: 100vh;
+}
+span{
+  color: #7A31A5 ;
+}
+.paginicial {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+.fran{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.yasmin{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.img1{
+  border-right: solid 8px #7A31A5;
+  border-bottom: solid 8px #7A31A5;
+  border-image: linear-gradient(135deg, transparent 50%, #A53183) 1;
+}
+
+.fran1{
+  border-left: solid 8px #7A31A5;
+  border-bottom: solid 8px #7A31A5;
+  border-image: linear-gradient(225deg, transparent 50%, #A53183) 1;
+  
+  
+}
+.yasmin1{
+  border-left: solid 8px #7A31A5;
+  border-bottom: solid 8px #7A31A5;
+  border-image: linear-gradient(225deg, transparent 50%, #A53183) 1;
+  
+}
+  
+  
+
+
+.img1 img{
+  width: 100%;
+}
+.yasmin1 img{
+  width: 100%
+}
+.fran1 img{
+  width: 100%;
+}
+  
+.inconteudo {
+  width: 45%;
+  font-size: 2.2rem;
+}
+.franconteudos{
+  width: 45%;
+ font-size:  2.2rem;
+}
+.yasminconteudos{
+  width: 45%;
+  font-size: 2.2rem;
+}
+.franconteudos h3, .yasminconteudos h3, .inconteudo h3{
+  font-weight: 700;
+  font-size: 2.7rem;
+  line-height: 1,3;
+  
+}
+.franconteudos h1, .yasminconteudos h1, .inconteudo h1{
+  font-weight: 700;
+  font-size: 2.7rem;
+  line-height: 1,3;
+  
+}
+.franconteudos p, .yasminconteudos p, .inconteudo p{
+  margin-top: 1.6rem;
+  text-align: justify;}
+  
+
+.projetos, .momentos, .contatos{
+  
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.proconteudos{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 50px;
+  
+}
+
+
+.projetos1:hover{
+  border-color: yellow;
+}
+
+.projetos1{
+  display: flex;
+  flex-direction: column;
+justify-content: space-between;
+min-height: 25rem;
+margin-bottom: 1rem;
+background-color: #CB44B6;}
+  
+  
+.projetos1{
+  padding: 4rem 1rem 2.5rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: solid 0.15rem #7172DE;
+border-color: black;
+  transition: 0.5s ease;
+  transform: scale(1.01)
+}
+.projetos1 i{
+  font-size: 4.3rem;
+  color:#5D1191;
+  
+}
+.projetos1 h3{
+  font-size: 3rem;
+}
+.projetos1 p{
+  margin: 0.5rem;
+  letter-spacing: 0.1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}
+.bnt{
+  display: inline-block;
+  padding: 0.7rem 1.8rem;
+  background-color: #5D1191;
+ border-radius: 2rem;
+ color: #E110B0;
+ font-weight: 600;
+ letter-spacing: 0.1rem;
+ transition: 0.3s ease;
+ margin-top: 1.2rem;
+}
+.bnt:hover{
+  box-shadow: 0 0 0.3rem;
+  background-color: inherit;
+  color: #8925CE;
+}
+.momentos{
+  
+}
+  .momconteudod {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as imagens quebrem para a próxima linha se necessário */
+    justify-content: space-evenly; /* Distribui os itens igualmente */
+    gap: 1.2rem; /* Dá um espaço entre as imagens */
+}
+  
+
+
+.momentos1{
+  position: relative;
+  border-radius: 0.6rem;
+  box-shadow: 0 0 0.6rem #5E1DA7;
+overflow: hidden;
+  display: flex;
+   }
+
+.momentos1 img{
+ width: 100%;
+ transition: 0.5s ease;
+ 
+}
+.momentos1 img:hover{
+  
+  
+  transform: scale(1.1);
+}
+.momentos1, .momentoss{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(transparent, #AF86DD);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 4rem;
+  transform: translateY(0rem);
+  transition: 0.5s ease;
+}
+.momentos1:hover, .momentoss{
+  transform: translateY()
+  
+}
+.momentoss h4{
+  font-size: 50px;
+  
+  
+}
+.momentoss a{
+  font-size: 45px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #2E054E;
+  border-radius: 50%;
+  
+}
+.momentoss a{
+  margin: 0.2rem 0 0.5rem;
+}
+.momentoss a i{
+  
+  font-size: 2.8rem;
+ color: #AD63E4;
+}
+form{
+  min-height: 45rem;
+  margin: 0.6rem auto;
+  text-align: center;
+  margin-bottom: 2rem;
+  border: solid 1px #C263BA;
+}
+form .imput-box{
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 200px;
+  
+}
+form .imput-box imput,
+textarea{
+  width: 50%;
+  padding: 1rem;
+  font-size: 1rem;
+  background-color:#FDCCFF ;
+  border-radius: 2px;
+  margin: 0,4rem 0;
+  
+}
